@@ -1,0 +1,58 @@
+header {
+  background: #333;
+  color:bisque;
+  padding: 1;
+  text-align: center;
+}
+
+header nav a {
+  color:blueviolet;
+  margin: 0;
+  text-decoration:solid;
+}
+ .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: white; /* Dark green */
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+.navbar ul {
+      list-style:none;
+      margin: 0;
+      padding: 0;
+      display:flex;
+    }
+
+    .navbar ul li {
+      margin-left: 20px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      font-weight:bold;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: rgb(218, 37, 97);
+    }
+
+body {
+  background-color:lightblue;
+  margin: 1rem;
+}
+/* Button hover effect */
+.btn-primary {
+  transition: all 0.3s ease; /* smooth animation */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* slightly darker blue */
+  transform: scale(1.05); /* small zoom effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* soft shadow */
+}
